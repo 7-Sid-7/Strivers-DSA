@@ -8,7 +8,7 @@ public class Easy2{
        for(int i=0;i<n;i++){
            nums[i]=in.nextInt();
        }
-       SSandL(arr);
+       SSandL(nums);
     }
 static void SSandL(int[] arr){
         if(arr.length<2) {
