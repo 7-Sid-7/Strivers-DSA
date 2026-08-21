@@ -8,7 +8,7 @@ public class Medium01{
        for(int i=0;i<n;i++){
            nums[i]=in.nextInt();
        }
-       System.out.println(Arrays.toString(tgtsum(arr)));
+       System.out.println(Arrays.toString(tgtsum(nums)));
     }
     static int[] tgtsum(int[] arr,int tgt){
         int l=0;
