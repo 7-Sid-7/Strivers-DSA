@@ -8,7 +8,7 @@ public class Easy3{
        for(int i=0;i<n;i++){
            nums[i]=in.nextInt();
        }
-       SSandL(arr);
+       System.out.println(orderedarr(nums));
     }
   static boolean orderedarr(int[] arr){
         if(arr.length<2){
