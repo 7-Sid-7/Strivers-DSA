@@ -8,8 +8,8 @@ public class Easy4{
        for(int i=0;i<n;i++){
            nums[i]=in.nextInt();
        }
-       System.out.println(removedup(arr));
-      System.out.println(removedup2(arr));
+       System.out.println(removedup(nums));
+      System.out.println(removedup2(nums));
     }
   static int removedup(int[] arr){
         int key=0;
